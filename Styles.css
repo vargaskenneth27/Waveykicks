@@ -1,0 +1,141 @@
+
+/* Add color, font, centered, and removed margin top for all p elements */
+p {
+text-align: center;
+margin-top: 0px;
+color: #3936AB;
+font-family: 'Gochi Hand', cursive;
+}
+
+/* Add color, font, and centered for all h1 element */
+h1 {
+
+text-align: center;
+font-family: 'Gochi Hand', cursive;
+color: #82F6FF;
+
+}
+/* Add color, font, and centered for all h2 element */
+h2 {
+
+text-align: center;
+font-family: 'Gochi Hand', cursive;
+color: #82F6FF;
+
+}
+/* Add a background, hide side extra space to right of website, and changed font size for all body elements */
+body {
+
+background-color: #707C9B;
+overflow-x: hidden;
+font-size: 20px;
+}
+/* Add color to text for label */
+label {
+
+color: #3936AB;
+
+}
+/* Add centered text and have bullets next to text for all ul */
+ul {
+text-align: center;
+list-style-position: inside;
+}
+/* Add background color and change font size for li a  */
+li a {
+
+background-color: #82F6FF
+font-size :25px
+
+}
+/* Add color to span element */
+span {
+
+color: #3936AB;;
+}
+/* Adjust button when in mobile mode */
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: none;
+}
+/* Add border to navbar with color */
+.nav>li>a {
+border-style: solid;
+border-color: #707C9B;
+
+}
+/* Resize logo */
+.logo {
+
+width: 250px;  
+height: 200px; 
+
+}
+/* Add justify, centered, color, and font change to text for col1 */
+.col1 {
+
+text-align: justify;
+text-align-last: center;
+color: #3936AB;
+font-family: 'Gochi Hand', cursive;
+
+}
+/* Add center to text for id a */
+#a {
+
+text-align: center;
+
+}
+/* Add 0 margin to bottom of navbar */
+.navbar {
+
+margin-bottom: 0
+
+}
+/* Add font size and background color for demo */
+#demo {
+
+font-size: 100px ;
+background-color: #82F6FF;;
+
+}
+/* Add block, margin left and right, and width to Customer Service Image */
+.avatar {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+/* Added padding, font size, width, aligned text to center, removed text decoration, and border- radius to social links */
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+/* Added background color and font color to social media */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* Added background color and font color to social media */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/* Added background color and font color to social media */
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/* Added background color and font color to social media */
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
